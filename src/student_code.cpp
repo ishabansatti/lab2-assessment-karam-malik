@@ -3,26 +3,26 @@ using namespace std;
 
 int getIntValue() {
     // Declare a variable var_int of type int and set its value to 10.
-int var_int = 10;
-return var_int;
+    int var_int = 10;
+    return var_int;
 }
 
 float getFloatValue() {
     //Hello
     // Declare a variable var_float of type float and set its value to 10.75.
-var_float=10.75;
-return var_float;
+    float var_float = 10.75;
+    return var_float;
 }
 
 char getCharValue() {
     // Declare a variable var_char of type character and set its value to A.
-var_char='A';
-return var_char;
+    char var_char = 'A';
+    return var_char;
 }
 
 int convertFloatToInt(float value) {
     // convert value to int.
-return (int)value;
+    return (int)value;
    // return value;
 }
 
@@ -33,9 +33,7 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
-float celsius = (fahrenheit - 32) * 5.0 / 9.0;
-return celsius;
+    float celsius = (fahrenheit - 32) * 5.0 / 9.0;
+    return celsius;
 }
     //return celsius;
-
-}
